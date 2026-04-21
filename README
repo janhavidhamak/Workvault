@@ -1,0 +1,84 @@
+# WorkVault
+The Premium Sanctuary for Global Elite Talent
+
+## Project Description
+WorkVault is a high-end full-stack freelance marketplace designed to connect elite professionals with enterprise clients. It integrates AI-powered career bio generation, real-time project tracking, and secure collaboration into a unified platform.
+
+## Key Features
+- AI Career Copilot using Google Gemini API
+- Dual Role System (Freelancer and Client dashboards)
+- Real-time project tracking with deadline-based indicators
+- Secure messaging system between users
+- Dynamic portfolio and experience management
+- Glassmorphic UI with dark/light mode
+- Secure authentication using Supabase
+
+## Tech Stack
+Frontend:
+- React 19
+- Tailwind CSS
+- Framer Motion
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- Better-SQLite3
+
+Other Tools and Services:
+- Supabase (Authentication)
+- Google Gemini API (AI Integration)
+- Multer (File Upload Handling)
+
+## Architecture
+Client Layer: React frontend (SPA)
+API Layer: Node.js with Express
+Database Layer: SQLite
+Authentication: Supabase
+AI Integration: Google Gemini API
+
+## Setup Instructions
+1. Clone the repository:
+   git clone https://github.com/your-username/workvault.git
+
+2. Navigate to the project folder:
+   cd workvault
+
+3. Install dependencies:
+   npm install
+
+4. Start backend server:
+   node server.js
+
+5. Start frontend:
+   npm run dev
+
+## Folder Structure
+/client       -> React frontend  
+/server       -> Backend API  
+/database     -> SQLite configuration  
+/uploads      -> Uploaded files and images  
+
+## Environment Variables
+Create a .env file and add the following:
+
+SUPABASE_URL=your_url  
+SUPABASE_KEY=your_key  
+GEMINI_API_KEY=your_key  
+
+## Testing
+- Manual functional testing of all features
+- API testing using Postman
+- Cross-browser compatibility testing
+
+## Future Scope
+- Secure payment integration (Stripe)
+- Video conferencing (WebRTC)
+- AI-based project scoping assistant
+- Analytics dashboard for users
+
+## Authors
+Gargee Wagh
+Janhavi Dhamak  
+
