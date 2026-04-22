@@ -1,0 +1,9 @@
+node_modules/
+data/
+dist/
+.git/
+.vite-temp/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
